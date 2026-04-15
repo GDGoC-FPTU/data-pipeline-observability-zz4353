@@ -1,14 +1,15 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23572429&assignment_repo_type=AssignmentRepo)
 # Day 10 Lab: Data Pipeline & Data Observability
 
-**Student Email:** email@example.com
-**Name:** (Dien ten cua ban)
-
+**Student Email:** vmkqa2@gmail.com
+**Name:** Vũ Minh Khải
+**Student ID:** AI20K-0343
 ---
 
 ## Mo ta
 
-(Mo ta ngan gon bai lab va nhung gi ban da lam)
+- Cài đặt các nội dung về Extract, Validate, Transform, Load
+- Làm thực nghiệm so sánh kết quả khi chạy agent mô phỏng với dữ liệu sạch và khi chạy agent mô phỏng với dữ liệu bẩn
 
 ---
 
@@ -28,7 +29,9 @@ python solution.py
 ```bash
 # Mo ta cach ban chay thi nghiem Clean vs Garbage data
 ```
-
+Sử dụng code chạy đã được setup sẵn:
+- Agent mô phỏng hoạt động bằng cách lọc những sản phẩm có category là electronics. 
+- Chọn sản phẩm có giá cao nhất để đề xuất (logic: giá cao nhất -> sản phẩm tốt nhất)
 ---
 
 ## Cau truc thu muc
@@ -44,4 +47,6 @@ python solution.py
 
 ## Ket qua
 
-(Tom tat ket qua: bao nhieu records da xu ly, bao nhieu bi loai, v.v.)
+- Đã xử lý 5 records, 3 records được chọn và 2 records bị loại.
+- Chạy thử agent simulation bằng data đã xử lý và data bẩn.
+    - Kết quả: agent sử dụng dữ liệu bẩn đưa ra kết quả sai, agent sử dụng dữ liệu đã xử lý đưa ra kết chính xác. 
